@@ -1,0 +1,28 @@
+.App {
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #4f4f4f;
+  color: rgb(255, 234, 234);
+  display: flex;
+  padding: 8px 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
